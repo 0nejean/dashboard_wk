@@ -3,31 +3,34 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Gnb from "./Gnb";
+import { Heading } from "@chakra-ui/react";
 
 const Header = () => {
   return (
     <HeaderWrapper>
-      <Logo>
-        <Link to="/">logo </Link>
-      </Logo>
+      <HeaderStyle as="h1">
+        <Link to="/">logo</Link>
+      </HeaderStyle>
       <Gnb />
     </HeaderWrapper>
   );
 };
 
 //const 변수명 = styled.태그명``;
-const Logo = styled.h1`
+const HeaderStyle = styled(Heading)`
   font-size: 30px;
-  color: mintcream;
+  color: var(--white);
 `;
 
 const HeaderWrapper = styled.header`
-  display: flex;
-  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
   align-items: center;
-  height: 70px;
-  background-color: #eee;
-  padding: 0 20px;
+  background-color: var(--primary);
+  width: 100px;
+  padding: 30px;
 `;
 
 export default Header;

@@ -4,11 +4,11 @@ import reset from "styled-reset";
 const GlobalStyles = createGlobalStyle` 
     ${reset}
     :root {
-        --primary: #120E46;
+        --primary: #8D86D5;
         --S_Light: #cbc8ec;
         --primary-light: rgba(90, 84, 164, 0.80);
         --primary-1: #8a87b3;
-        --primary-2: #8D86D5;
+        --primary-2: #120E46;
         --primary-3: #908eae;
         // --S_Light: red;
 
