@@ -1,4 +1,3 @@
-// src/components/Layout/Footer/Footer.jsx
 import React from "react";
 import styled from "styled-components";
 
@@ -10,7 +9,6 @@ const Footer = () => {
   );
 };
 
-//const 변수명 = styled.태그명``;
 const FooterWrapper = styled.footer`
   display: flex;
   justify-content: center;
