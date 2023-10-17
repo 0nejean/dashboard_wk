@@ -56,7 +56,7 @@ const GlobalStyles = createGlobalStyle`
     // body {
     //     background: url(images/1.png) no-repeat 100% 0 !important;
     //     #root {
-    //         opacity: 0.5 !important;
+            opacity: 0.5 !important;
     //     }
     // }
     

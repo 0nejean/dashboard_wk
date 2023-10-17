@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Gnb from "./Gnb";
-import { Divider, Heading } from "@chakra-ui/react";
+import { Heading } from "@chakra-ui/react";
+import DivderCus from "../../common/DividerCus";
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
           <span>horizon</span> free
         </Link>
       </HeaderStyle>
-      <Divider my={8} background="var( --link-default)" />
+      <DivderCus />
       <Gnb />
     </HeaderWapper>
   );

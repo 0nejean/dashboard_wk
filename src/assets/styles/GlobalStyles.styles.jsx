@@ -10,6 +10,7 @@ ${reset}
         --primary-dark: #2B3674;
         --S_Light: #CBC8EC;
         --primary-light: rgba(90, 84, 164, 0.80);
+        --secondary-grey-600: #A3AED0;
         
         --primary-1: #8A87B3;
         --primary-2: #8D86D5;
