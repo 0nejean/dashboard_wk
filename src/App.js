@@ -3,7 +3,7 @@ import Layout from "./components/layout/Layout";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages";
 // import About from "./pages/About";
-import { ChakraProvider, CSSReset, TabPanels } from "@chakra-ui/react";
+import { ChakraProvider, CSSReset } from "@chakra-ui/react";
 import GlobalStyles from "./assets/styles/GlobalStyles.styles";
 import theme from "./theme";
 import MarketPlace from "./pages/MarketPlace";

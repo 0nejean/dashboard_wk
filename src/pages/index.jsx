@@ -1,11 +1,16 @@
 import React from "react";
 import Title from "../components/title/Title";
+import History from "../components/title/History";
+import { Box } from "@chakra-ui/react";
 
 const Home = () => {
   return (
-    <div>
-      <Title title="홈" desc="이 페이지는 메인 페이지입니다." />
-    </div>
+    <>
+      <Box pl="10px">
+        <History pagename="Dashboard" />
+        <Title title="Dashboard" desc="이 페이지는 Dashboard 페이지 입니다." />
+      </Box>
+    </>
   );
 };
 
