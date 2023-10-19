@@ -1,11 +1,8 @@
-import React from "react";
+import React from 'react';
+import Layout from '../components/layout/Layout';
 
 const Kanban = () => {
-  return (
-    <div>
-      <h2>Kanban</h2>
-    </div>
-  );
+    return <Layout pagename={'Kanban'}>Kanban</Layout>;
 };
 
 export default Kanban;

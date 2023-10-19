@@ -1,17 +1,8 @@
-import React from "react";
-import Title from "../components/title/Title";
-import History from "../components/title/History";
-import { Box } from "@chakra-ui/react";
+import React from 'react';
+import Layout from '../components/layout/Layout';
 
 const MarketPlace = () => {
-  return (
-    <>
-      <Box pl="10px">
-        <History pagename="MarketPlace" />
-        <Title title="MarketPlace" desc="이 페이지는 메인페이지 입니다." />
-      </Box>
-    </>
-  );
+    return <Layout pagename={'MarketPlace'}>MarketPlace</Layout>;
 };
 
 export default MarketPlace;
