@@ -15,8 +15,8 @@ const Gnb = () => {
                         <AiFillHome /> Dashboard
                     </Link>
                 </li>
-                <li className={location.pathname === '/market' ? 'active' : ''}>
-                    <Link to="/market">
+                <li className={location.pathname === '/marketplace' ? 'active' : ''}>
+                    <Link to="/marketplace">
                         <AiOutlineShoppingCart />
                         NFT Marketplace
                     </Link>
